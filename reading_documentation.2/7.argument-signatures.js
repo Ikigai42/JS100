@@ -1,6 +1,7 @@
 // How many arguments does the Array.prototype.join() method expect?
 
-//Array.prototype.join() expects at one optional argument, a String.
+someArray.join(separator);
+//Array.prototype.join() expects at one optional argument, a SEPERATOR value that is used when concatenated the values of an Array or Array-like object.
 
 //What happens if you call it with less or more arguments?
 
