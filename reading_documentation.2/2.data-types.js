@@ -23,4 +23,15 @@ Seven data types that are primitives:
 - String | A sequence of characters that represent a text value. For example: "Howdy".
 - Symbol | A data type whose instances are unique and immutable.
 
+*/
+
+/**LS
+ * Note that Symbol was added only in ES6, and BigInt was introduced in ES9. We do not discuss either type in this course.
+
+You may see occasional references to null being an object, even on MDN. But, even there, you will also find statements that say it is primitive type. The history and behavior of null is somewhat confusing, but, for our purposes, it is a primitive type.
+
+Discussion
+You can find this information on the JavaScript data types and data structures page.
+
+In addition to the primitive data types, JavaScript has one non-primitive type: Object (which also comprises arrays). The main difference is that values of a primitive type are immutable. That is, there is no way to change values like 47, 'Launch School', or true, while you can change non-primitive values like arrays, e.g. by adding or removing elements.
  */
