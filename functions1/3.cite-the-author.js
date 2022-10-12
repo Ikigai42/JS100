@@ -4,7 +4,7 @@ let author = 'Brendan Eich';
 let quote = 'Always bet on JavaScript.';
 
 function cite(author, quote) {
-  console.log(`${author} said: ${quote}`);
+  console.log(`${author} said: "${quote}"`);
 }
 
 cite('Brendan Eich', 'Always bet on JavaScript.');
