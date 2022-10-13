@@ -5,7 +5,7 @@ function myFunction() {
 
   if (true) {
     //condition passed to if statement truthy
-    console.log(a); //Attempts to access new a variable in TEMPORAL DEAD ZONE☠️
+    console.log(a); //Attempts to access new a variable in a TEMPORAL DEAD ZONE☠️
     let a = 2; //declare a new variable a inside the body of the if statement & initialize it to the value 2
     console.log(a); //log the value that was declared inside the body of the if statement
     //logs the value => 2
