@@ -14,3 +14,6 @@ greet(); // logs: undefined, world!
  * Discussion
 Default parameters are a great way to assign a default value to a parameter. This default value is used in case the parameter is undefined, which is the case if greet is called without an argument.
  */
+
+greet(undefined);
+// should log: Hello, world!
